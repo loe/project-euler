@@ -15,8 +15,6 @@ end
 
 sequence = fib_with_limit(4_000_000)
 sum = sequence.inject(0) do |m, i|
-  puts m
-  puts i
   if i % 2 == 0
     m + i
   end
